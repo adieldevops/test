@@ -8,7 +8,7 @@ podTemplate(yaml: '''
         command:
         - sleep
         args:
-        - 1
+        - 99d
 ''') {
   node('deployment') {
     stage('Get project') {
